@@ -1,0 +1,14 @@
+{
+    "name": "agentsquidflaps/pre-commit",
+    "description": "Automate code standards on commit",
+    "type": "scripts",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Tim Norris"
+        }
+    ],
+    "require": {
+        "squizlabs/php_codesniffer": "^2.7 || ^3.0"
+    }
+}
