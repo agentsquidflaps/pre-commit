@@ -7,7 +7,7 @@ else
     PRE_COMMIT_EXISTS=0
 fi
 
-cp ./vendor/agentsquidflaps/phpcs-git-pre-commit/src/pre-commit .git/hooks/pre-commit
+cp ./vendor/agentsquidflaps/pre-commit/src/pre-commit .git/hooks/pre-commit
 chmod +x .git/hooks/pre-commit
 
 if [ "$PRE_COMMIT_EXISTS" = 0 ];
