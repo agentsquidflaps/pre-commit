@@ -1,5 +1,6 @@
 {
     "name": "agentsquidflaps/pre-commit",
+    "version": "1.0.0",
     "description": "Automate code standards on commit",
     "type": "scripts",
     "license": "MIT",
